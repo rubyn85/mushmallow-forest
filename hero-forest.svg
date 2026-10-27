@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 660" role="img" aria-label="A pig and a lion cuddling in a marshmallow forest">
+ <defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#E3F3F6"/><stop offset="1" stop-color="#F6FAF1"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9EAD4"/><stop offset="1" stop-color="#C1DCC8"/></linearGradient>
+  <linearGradient id="mane" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8D68B"/><stop offset="1" stop-color="#EAB16C"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="12" flood-color="#849A87" flood-opacity=".17"/></filter>
+ </defs>
+ <!-- soft outer island -->
+ <path d="M88 303C43 225 114 109 244 96c102-10 139 37 212 36 103-1 196 66 186 181-7 81-67 151-156 177-99 29-269 17-345-48C97 404 105 351 88 303Z" fill="url(#sky)"/>
+ <circle cx="570" cy="156" r="37" fill="#FFF5CC" opacity=".8"/>
+ <g fill="#fff" opacity=".84"><ellipse cx="174" cy="177" rx="54" ry="20"/><ellipse cx="151" cy="168" rx="24" ry="23"/><ellipse cx="193" cy="168" rx="28" ry="25"/><ellipse cx="502" cy="220" rx="58" ry="18"/><circle cx="470" cy="210" r="19"/><circle cx="521" cy="210" r="25"/></g>
+ <!-- distant pastel trees -->
+ <g opacity=".63"><path d="M157 389v-117M542 404V271" stroke="#D1B49B" stroke-width="16" stroke-linecap="round"/><circle cx="157" cy="270" r="54" fill="#F7D9E3"/><circle cx="539" cy="270" r="62" fill="#E9E0F4"/><circle cx="121" cy="292" r="34" fill="#F7D9E3"/><circle cx="571" cy="303" r="34" fill="#E9E0F4"/></g>
+ <ellipse cx="348" cy="470" rx="270" ry="88" fill="url(#ground)"/>
+ <!-- striped fluffy trees -->
+ <g filter="url(#shadow)">
+  <path d="M173 443v-163M581 436V280" stroke="#D1AC90" stroke-width="20" stroke-linecap="round"/>
+  <path d="M121 272c-21-21-5-53 24-50 8-41 69-49 90-14 43-9 56 39 29 62 10 38-37 62-65 35-24 32-75 13-78-33Z" fill="#FFF0F4" stroke="#E8C9D1" stroke-width="3"/>
+  <path d="M522 276c-19-27 1-54 31-50 4-36 61-51 83-16 39-10 57 34 28 59 13 33-24 66-57 42-35 28-83-4-85-35Z" fill="#FFF1D5" stroke="#E9D7AD" stroke-width="3"/>
+  <path d="M130 251c30 14 64-3 88-3m-81 28c31 11 69-5 100-7M533 250c22 5 61-11 96-9m-91 34c35 7 68-10 97-8" fill="none" stroke="#FFF" stroke-opacity=".82" stroke-width="10" stroke-linecap="round"/>
+ </g>
+ <!-- tiny background hills -->
+ <path d="M114 449q54-53 110-17m266 4q64-50 115 11" fill="none" stroke="#9BBBA0" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+ <!-- magic sparkles -->
+ <g fill="#D6A96B"><path d="m272 149 5 16 16 5-16 5-5 16-5-16-16-5 16-5Z"/><path d="m486 136 4 13 13 4-13 4-4 13-4-13-13-4 13-4Z"/></g>
+ <g stroke="#E5B880" stroke-width="3" stroke-linecap="round"><path d="M350 151v24m-12-12h24M616 366v18m-9-9h18"/></g>
+ <!-- characters shadow -->
+ <ellipse cx="342" cy="498" rx="158" ry="19" fill="#83A88A" opacity=".16"/>
+ <!-- pig - rear tail, ears, body, legs -->
+ <g stroke="#B87D89" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+  <path d="M257 402q-35-24-34 5 2 21 24 1" fill="none" stroke="#E8A1AF" stroke-width="9"/>
+  <path d="M242 443c-12 20-7 46 16 48 24 1 27-23 24-38m16-3c-5 20 2 43 25 42 24-3 20-28 13-45" fill="#E9A8B8"/>
+  <ellipse cx="294" cy="408" rx="78" ry="82" fill="#F6BCCC"/>
+  <path d="M234 320q-37-66-2-79 27-5 44 41M324 282q29-51 54-34 24 24-6 71" fill="#F6BCCC"/>
+  <path d="M238 299q-21-39-7-40 22 4 25 38M335 292q24-35 32-28 5 12-9 42" fill="#E89FAB" stroke="none"/>
+  <circle cx="298" cy="336" r="78" fill="#F8C7D2"/>
+  <!-- exterior arms: exactly two -->
+  <path d="M237 391q-43-11-43 18t46 19" fill="#F6BCCC"/>
+  <path d="M348 390q27 3 43 23l-16 23q-20-23-36-19" fill="#F6BCCC"/>
+  <ellipse cx="297" cy="364" rx="29" ry="21" fill="#EBA2B2"/>
+  <circle cx="285" cy="357" r="6" fill="#C57C8D" stroke="none"/><circle cx="309" cy="357" r="6" fill="#C57C8D" stroke="none"/>
+  <circle cx="262" cy="331" r="4.5" fill="#644C4B" stroke="none"/><circle cx="329" cy="331" r="4.5" fill="#644C4B" stroke="none"/>
+  <ellipse cx="245" cy="354" rx="13" ry="7" fill="#ECA4B3" stroke="none" opacity=".8"/><ellipse cx="350" cy="354" rx="13" ry="7" fill="#ECA4B3" stroke="none" opacity=".8"/>
+  <path d="M285 383q12 10 24 0" stroke="#B57682" fill="none" stroke-width="2.8"/>
+ </g>
+ <!-- lion -->
+ <g stroke="#A77C59" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+  <path d="M451 412q45 23 64-9 8-15-6-23" fill="none" stroke="#D7A65D" stroke-width="12"/>
+  <path d="M417 455q-17 35 8 40 23 5 30-31m22-9q-4 38 18 40 23 0 16-37" fill="#F5CF8B"/>
+  <ellipse cx="456" cy="414" rx="76" ry="81" fill="#F7D99B"/>
+  <path d="M374 308c-18-28 1-57 31-51 11-32 46-43 73-27 31-20 69 6 68 38 32 13 35 48 13 69 19 29-4 62-36 67-20 27-55 33-78 18-36 18-69-5-74-32-34-18-41-57-16-82Z" fill="url(#mane)" stroke="#D6A469"/>
+  <circle cx="405" cy="284" r="21" fill="#F1BE74"/><circle cx="508" cy="284" r="21" fill="#F1BE74"/>
+  <circle cx="405" cy="284" r="11" fill="#F8DEA8" stroke="none"/><circle cx="508" cy="284" r="11" fill="#F8DEA8" stroke="none"/>
+  <ellipse cx="456" cy="337" rx="71" ry="71" fill="#F9DDA7"/>
+  <!-- lion arms: exactly two -->
+  <path d="M399 393q-30-2-47 21 6 31 32 28l28-26" fill="#F8D99D"/>
+  <path d="M510 390q37 0 39 25 1 24-37 20" fill="#F8D99D"/>
+  <ellipse cx="457" cy="374" rx="29" ry="24" fill="#FFF1CF" stroke="none"/>
+  <path d="m447 357 10 8 10-8q-8-12-20 0Z" fill="#AA7664" stroke="none"/>
+  <path d="M457 366v7m0 0q-10 11-20-1m20 1q10 11 20-1" stroke="#9D745C" stroke-width="3" fill="none"/>
+  <circle cx="427" cy="335" r="4.4" fill="#604C40" stroke="none"/><circle cx="486" cy="335" r="4.4" fill="#604C40" stroke="none"/>
+  <ellipse cx="417" cy="360" rx="14" ry="7" fill="#EAAF9F" stroke="none" opacity=".6"/><ellipse cx="496" cy="360" rx="14" ry="7" fill="#EAAF9F" stroke="none" opacity=".6"/>
+ </g>
+ <!-- flowers and accessories -->
+ <g stroke="#7EAA8B" stroke-width="3" stroke-linecap="round"><path d="M165 478v-23m7 23v-18m389 9v-26m-9 22v-15M356 507v-20"/><path d="M165 466q-15-15-20-8m27 8q14-15 19-8M561 456q-18-11-22-3" fill="none"/></g>
+ <g fill="#F8F1C4"><circle cx="165" cy="449" r="8"/><circle cx="561" cy="438" r="9"/><circle cx="356" cy="485" r="7"/></g><g fill="#F0B1C0"><circle cx="165" cy="449" r="3.5"/><circle cx="561" cy="438" r="4"/><circle cx="356" cy="485" r="3"/></g>
+ <g fill="#FFF8ED"><ellipse cx="196" cy="487" rx="17" ry="11"/><ellipse cx="533" cy="482" rx="18" ry="12"/></g>
+ <g fill="#DEADA4"><circle cx="195" cy="480" r="2.4"/><circle cx="533" cy="475" r="2.4"/></g>
+ <path d="M350 253q-13-13-4-20 9-5 14 5 8-12 17-3 8 12-26 31Z" fill="#E8A2B1"/>
+ <g fill="#E7C58E" opacity=".8"><circle cx="87" cy="372" r="4"/><circle cx="614" cy="384" r="4"/><circle cx="295" cy="520" r="4"/></g>
+</svg>

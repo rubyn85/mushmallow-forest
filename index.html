@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9f0">
+  <meta name="description" content="A tiny magical forest of love, memories, letters, and adventures.">
+  <meta property="og:title" content="Our Mushmallow Forest — A Little Story of Us">
+  <meta property="og:description" content="The little place where our favourite memories live.">
+  <title>Our Mushmallow Forest ♡</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <div class="page-grain" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Our Mushmallow Forest, home">
+        <img src="assets/favicon.svg" width="35" height="35" alt="">
+        <span>mushmallow <em>forest</em><small>our little universe ♡</small></span>
+      </a>
+      <button class="mobile-menu-toggle icon-button" aria-controls="mainMenu" aria-expanded="false" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <div class="menu-links" id="mainMenu">
+        <a href="#story">our story</a><a href="#memories">memories</a><a href="#adventures">adventures</a><a href="#letters">love notes</a><a href="#future">our future</a>
+      </div>
+      <div class="nav-actions">
+        <button class="music-button" id="musicToggle" type="button" aria-pressed="false" title="Play our forest lullaby"><span id="musicIcon" aria-hidden="true">♫</span><span id="musicLabel">play our song</span></button>
+        <label class="sr-only" for="musicVolume">Music volume</label><input id="musicVolume" class="music-volume" type="range" min="0" max="100" value="32" aria-label="Music volume">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero-sparkle star-1" aria-hidden="true">✳</div><div class="hero-sparkle star-2" aria-hidden="true">✦</div><div class="hero-sparkle star-3" aria-hidden="true">✧</div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="overline"><span class="overline-star">✷</span> for the little moments & the big adventures</div>
+          <h1 id="heroTitle">Our <span>Mushmallow</span> Forest<span class="heading-period">.</span></h1>
+          <p class="hero-handwriting">Once upon a time, there was us <span>♡</span></p>
+          <p class="hero-subtitle" id="heroSubtitle">A little forest for the two of us, and all the days still to come.</p>
+          <div class="hero-buttons"><a class="button button-primary" href="#story">Turn the first page <span aria-hidden="true">↗</span></a><a class="text-link" href="#memories">Peek at our memories <span aria-hidden="true">→</span></a></div>
+          <div class="since-pill"><span aria-hidden="true">♡</span> our story began <strong>12 OCT 2025</strong></div>
+        </div>
+        <div class="hero-art-wrap" aria-label="Illustration of a happy little pig and fluffy lion together in a magical marshmallow forest" role="img">
+          <div class="hero-art-halo"></div>
+          <img class="hero-art" src="assets/hero-forest.svg" alt="" width="700" height="660">
+          <div class="hero-floating-note note-one">you + me <span>♥</span></div>
+          <div class="hero-floating-note note-two">our little world <span>✧</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>made with love & a little magic</span><a href="#counter" aria-label="Scroll to love counter">scroll to explore <span aria-hidden="true">↓</span></a></div>
+      <div class="scallop scallop-cream" aria-hidden="true"></div>
+    </section>
+
+    <section class="counter-section section-pad" id="counter" aria-labelledby="counterTitle">
+      <div class="shell counter-layout reveal">
+        <div class="section-intro counter-intro"><span class="eyebrow">✿ · chapter 01 · ✿</span><h2 id="counterTitle">It all started<br><em>with a little hello.</em></h2><p>A thousand small moments, one beautiful story. And the clock just keeps counting all the reasons to smile.</p><div class="doodle-arrow" aria-hidden="true">↝ ♡</div></div>
+        <div class="counter-card"><div class="counter-card-stars" aria-hidden="true">✦ &nbsp; ✧ &nbsp; ✶</div><p class="counter-label">we've been in love for...</p><div class="counter-grid" id="loveCounter" aria-live="off"><div><b>00</b><span>years</span></div><div><b>00</b><span>months</span></div><div><b>00</b><span>days</span></div><div><b>00</b><span>hours</span></div><div><b>00</b><span>mins</span></div><div><b>00</b><span>secs</span></div></div><button class="counter-heart" id="counterHeart" type="button" aria-label="Send a little heart">♥</button><p class="anniversary-counter" id="nextAnniversary">Counting down to our next anniversary...</p><span class="counter-scribble" aria-hidden="true">and every second matters ♡</span></div>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" id="story" aria-labelledby="storyTitle"><div class="shell"><div class="section-heading centered reveal"><span class="eyebrow">a story written in tiny moments</span><h2 id="storyTitle">The chapters of <em>us.</em></h2><p>Some days change everything. Others are wonderful just because we spent them together.</p></div><div class="timeline" id="timeline"></div><p class="timeline-end"><span aria-hidden="true">♡</span> the story is still unfolding...</p></div></section>
+
+    <section class="memories-section section-pad" id="memories" aria-labelledby="memoriesTitle"><div class="shell"><div class="section-heading reveal"><span class="eyebrow">snapshots of our favourite days</span><h2 id="memoriesTitle">Little moments,<br><em>big feelings.</em> <span class="tiny-flower" aria-hidden="true">✿</span></h2><p>A pocketful of Polaroids, silly smiles and places we never want to forget.</p></div><div class="gallery-filters" id="galleryFilters" aria-label="Filter memories"></div><div class="gallery-grid" id="galleryGrid"></div><p class="section-footnote">✧ More happy little memories are always welcome here.</p></div><div class="scallop scallop-sky" aria-hidden="true"></div></section>
+
+    <section class="adventures-section section-pad" id="adventures" aria-labelledby="adventuresTitle"><div class="shell"><div class="adventure-header"><div class="section-heading reveal"><span class="eyebrow">postcards from everywhere</span><h2 id="adventuresTitle">Oh, the places<br><em>we'll go!</em></h2><p>Two little hearts, one very big world. Every adventure deserves its own postcard.</p></div><div class="postmark" aria-hidden="true"><span>WITH LOVE</span><strong>✈</strong><span>FROM US</span></div></div><div class="travel-grid" id="travelGrid"></div><div class="world-note"><span class="world-note-icon" aria-hidden="true">✧</span><div><strong>Our map is still being drawn.</strong><p>Every new destination is another chapter waiting for us.</p></div><span class="world-doodle" aria-hidden="true">↝ ☆</span></div></div></section>
+
+    <section class="reasons-section section-pad" id="reasons" aria-labelledby="reasonsTitle"><div class="shell"><div class="section-heading centered reveal"><span class="eyebrow">tiny notes, enormous feelings</span><h2 id="reasonsTitle">A million little reasons<br><em>why I love you.</em></h2><p>Go on, open one. There's always something lovely waiting inside.</p></div><div class="reasons-grid" id="reasonsGrid"></div><div class="center-cta"><button class="button button-cream" id="randomReason" type="button">Tell me another reason <span aria-hidden="true">♡</span></button></div></div></section>
+
+    <section class="letters-section section-pad" id="letters" aria-labelledby="lettersTitle"><div class="shell letters-layout"><div class="letters-intro reveal"><span class="eyebrow">signed, sealed & full of love</span><h2 id="lettersTitle">Letters<br><em>to you.</em></h2><p>Some things are better written down and tucked away to read again on another day.</p><div class="handwritten-note">psst... these are just for you! <span>♡</span></div><img src="assets/love-envelope.svg" alt="A hand-drawn envelope with a heart seal" width="280" height="195" loading="lazy"></div><div class="letter-stack" id="letterStack"></div></div></section>
+
+    <section class="future-section section-pad" id="future" aria-labelledby="futureTitle"><div class="shell"><div class="section-heading centered reveal"><span class="eyebrow">the best is yet to come</span><h2 id="futureTitle">Our <em>little someday</em> list.</h2><p>Because the very best adventures are the ones we haven't had yet.</p></div><div class="future-card reveal"><div class="future-card-top"><div><span class="future-card-kicker">OUR ADVENTURE CHECKLIST ♡</span><h3>Things we can't wait to do</h3></div><div class="progress-badge" id="progressBadge">0 / 0 done</div></div><div class="progress-track" role="progressbar" id="progressTrack" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Bucket list completion"><span id="progressFill"></span></div><div id="bucketList" class="bucket-list"></div><p class="local-note"><span aria-hidden="true">ⓘ</span> Ticks are remembered on this browser only. To make permanent changes for everyone, edit <code>data.js</code> in GitHub.</p></div></div></section>
+
+    <section class="dates-section section-pad" id="special-days" aria-labelledby="datesTitle"><div class="shell dates-layout"><div class="section-heading reveal"><span class="eyebrow">circle it on the calendar</span><h2 id="datesTitle">Our very<br><em>special days.</em></h2><p>Some dates are too lovely to forget. This little calendar remembers them for us.</p></div><div class="dates-card" id="specialDaysList"></div></div></section>
+
+    <section class="closing-section" aria-labelledby="closingTitle"><div class="closing-stars" aria-hidden="true">✦ &nbsp;&nbsp; ✧ &nbsp;&nbsp; ✶ &nbsp;&nbsp; ✧ &nbsp;&nbsp; ✦</div><div class="shell closing-inner reveal"><div class="closing-mini-illustration"><img src="assets/couple-cuddle.svg" alt="Little pig and little lion sitting together beneath the stars" width="252" height="170" loading="lazy"></div><span class="eyebrow">this is only the beginning</span><h2 id="closingTitle">And the best part<br>of our story?<br><em>We're still writing it.</em></h2><p id="closingNote">To all the places we'll go, the memories we'll make, and the ordinary little days we'll share.</p><a class="button button-light" href="#home">Back to the beginning <span aria-hidden="true">↑</span></a></div><button type="button" class="secret-star" id="secretStar" title="A little star" aria-label="A little star in the forest">✧</button></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>© <span id="footerYear"></span> our mushmallow forest</span><span>handmade with ♥, stardust & a lot of love</span><a href="#home">back to top ↑</a></div></footer>
+  <audio id="bgMusic" src="audio/forest-lullaby.wav" loop preload="none"></audio>
+
+  <dialog class="popup-dialog lightbox-dialog" id="lightbox" aria-labelledby="lightboxTitle"><button class="dialog-close" type="button" data-close="lightbox" aria-label="Close photo">×</button><div class="lightbox-art" id="lightboxArt"></div><h3 id="lightboxTitle"></h3><p id="lightboxMeta"></p><div class="lightbox-controls"><button type="button" id="lightboxPrev" aria-label="Previous photo">←</button><span id="lightboxCount"></span><button type="button" id="lightboxNext" aria-label="Next photo">→</button></div></dialog>
+  <dialog class="popup-dialog note-dialog" id="noteDialog" aria-labelledby="noteDialogTitle"><button class="dialog-close" type="button" data-close="noteDialog" aria-label="Close note">×</button><span class="dialog-tiny">a little note for you ♡</span><span class="note-big-heart" aria-hidden="true">♥</span><h3 id="noteDialogTitle">Just because...</h3><p id="noteDialogText"></p><span class="note-signoff">all my love, always ♡</span></dialog>
+  <dialog class="popup-dialog letter-dialog" id="letterDialog" aria-labelledby="letterDialogTitle"><button class="dialog-close" type="button" data-close="letterDialog" aria-label="Close letter">×</button><span class="dialog-tiny" id="letterDialogDate"></span><h3 id="letterDialogTitle"></h3><div class="letter-body" id="letterDialogBody"></div></dialog>
+  <dialog class="popup-dialog secret-dialog" id="secretDialog" aria-labelledby="secretDialogTitle"><button class="dialog-close" type="button" data-close="secretDialog" aria-label="Close secret">×</button><span aria-hidden="true" class="secret-hearts">♡ ✦ ♡</span><img src="assets/couple-cuddle.svg" width="220" height="150" alt="Two little characters cuddling"><h3 id="secretDialogTitle">You found our little secret!</h3><p id="secretDialogText"></p></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
